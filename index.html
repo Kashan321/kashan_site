@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hero{
+            height: 100vh;
+            width: 100%;
+            /* background-color: rgb(88, 3, 3); */
+        }
+        .nav{
+            height: 60px;
+            width: 100%;
+            /* background-color: yellow; */
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .logo {
+            font-size: 35px;
+        }
+        .items ul li{
+            list-style: none;
+            display: inline-flex;
+            margin: 4px;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            background-color: #b45f5f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 15px;
+            margin: 0 0 0 0;
+        }
+        .sania{
+            color: white;
+        }
+        .m1{
+            font-size: 50px;
+        }
+        .t1{
+            font-size: 20px;
+        }
+        .bt1{
+            height: 40px;
+            padding: 10px;
+            margin-top: 15px;
+            cursor: pointer;
+            box-shadow: 2px 2px black;
+            transition: all ease 0.5s;
+        }
+        .bt1:hover{
+            background-color: rgb(240, 23, 95);
+            box-shadow: 4px 5px black;
+        }
+        @media only screen and (max-width: 600px) {
+            .items{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">KASHAN</div>
+            <!-- <div class="items">
+                <ul>
+                    <li>FACEBOOK</li>
+                    <li>INSTAGRAM</li>
+                    <li>WHATSAPP</li>
+                </ul>
+            </div> -->
+        </div>
+        <div class="main">
+            <h1 class="m1">ATTENTION <span class="sania">SANIA</span> DONT'T CLICK BUTTON BELOW!!!<br></h1>
+            <p class="t1">Sania, exercise caution! Refrain from clicking the button below to avert potential consequences. Your safety is a priority.</p>
+            <a href="./page1.html"><button class="bt1">DON't CLICK ME!!</button></a>
+        </div>
+    </div>
+</body>
+</html>
